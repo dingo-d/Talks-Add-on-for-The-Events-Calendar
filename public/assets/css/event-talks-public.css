@@ -1,0 +1,283 @@
+/* Icons created with Icomoon app https://icomoon.io/app/ */
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?fjqwyt');
+    src:    url('../fonts/icomoon.eot?fjqwyt#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?fjqwyt') format('truetype'),
+        url('../fonts/icomoon.woff?fjqwyt') format('woff'),
+        url('../fonts/icomoon.svg?fjqwyt#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="eticon-"], [class*="eticon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.eticon-hall:before {
+    content: "\e905";
+}
+.eticon-mic:before {
+    content: "\e91e";
+}
+.eticon-clock:before {
+    content: "\e94e";
+}
+.eticon-printer:before {
+    content: "\e954";
+}
+.eticon-share:before {
+    content: "\e900";
+}
+.eticon-linkedin:before {
+    content: "\e901";
+}
+.eticon-google-plus:before {
+    content: "\e902";
+}
+.eticon-twitter:before {
+    content: "\e903";
+}
+.eticon-facebook:before {
+    content: "\e904";
+}
+
+.event_talk_wrapper,
+.event_talk_widget{
+	display: block;
+	font-family: sans-serif;
+	margin-bottom: 40px;
+}
+
+.event_talk_date{
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.event_talk_tab_container{
+	display: block;
+	position: relative;
+	border-bottom: 5px solid #f8f7f7;
+}
+
+.event_talk_tab_container .tab{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	padding: 15px 30px 15px;
+	cursor: pointer;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #313131;
+}
+
+.event_talk_tab_container .tab span{
+	font-weight: 500;
+	-webkit-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+.event_talk_tab_container .tab.active span,
+.event_talk_tab_container .tab:hover span{
+	font-weight: 700;
+}
+
+.event_talk_content_container{
+	display: block;
+	position: relative;
+}
+
+.event_talk_content_container .tab_content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -10;
+	opacity: 0;
+	-webkit-transition: all 550ms 0 ease-in-out;
+	transition: all 550ms 0 ease-in-out;
+}
+
+.event_talk_content_container .tab_content.active{
+	display: block;
+	position: relative;
+	z-index: 10;
+	opacity: 1;
+	-webkit-transition: all 550ms 200ms ease-in-out;
+	transition: all 550ms 200ms ease-in-out;
+}
+
+.event_talk_talk_single{
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	border-bottom: 5px solid #f8f7f7;
+}
+
+.event_talk_talk_single:first-of-type{
+	padding-top: 30px;
+}
+
+.event_talk_talk_single:last-of-type{
+	margin-bottom: 0;
+}
+
+.event_talk_image_container{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 21.37%;
+	margin-right: 36px;
+	border-radius: 5px;
+	overflow: hidden;
+
+}
+
+.event_talk_talk_contents{
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.event_talk_talk_contents.has_image{
+	width: 72.5%;
+}
+
+.event_talk_title{
+	display: block;
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 22px;
+	text-align: left;
+	padding-bottom: 16px;
+}
+
+.event_talk_title a{
+	color:  #313131;
+}
+
+.event_talk_description{
+	color:  #616161;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	text-align: left;
+	display: block;
+	margin-bottom: 25px;
+}
+
+.event_talk_talk_meta_info{
+	display: inline-block;
+	padding: 7px 15px 7px 0;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.event_talk_talk_meta_info > div{
+	display: inline-block;
+	padding-right: 30px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.event_talk_talk_meta_info > div:last-of-type{
+	padding-right: 0;
+}
+
+.event_talk_meta_share{
+	padding-right: 0;
+	margin-top: 20px;
+	display: block;
+	font-weight: 700;
+}
+
+.event_talk_meta_share i,
+.event_talk_talk_meta_info i{
+	margin: 0 10px;
+	color: #007acc;
+	font-size: 18px;
+	position: relative;
+    top: 2px;
+}
+
+.event_talk_meta_share a,
+.entry-content .event_talk_meta_share a,
+.event_talk_talk_meta_info a{
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	box-shadow: none;
+}
+
+.event_talk_meta_share_icons{
+	display: inline-block;
+}
+
+/* Widget */
+
+.event_talk_widget .tab{
+	padding: 10px 8px;
+}
+
+.event_talk_widget .event_talk_talk_time,
+.event_talk_widget .event_talk_talk_place,
+.event_talk_widget .event_talk_talk_speaker{
+	display: block;
+	padding: 2px 0;
+}
+
+/* Tablet */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+	.event_talk_image_container{
+		width: 40%;
+		margin-right: 30px;
+	}
+
+	.event_talk_talk_contents.has_image{
+		width: 52%;
+	}
+}
+
+/* Mobile */
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+	.event_talk_tab_container .tab{
+		display: block;
+		border: 1px solid #D7D7D7;
+		border-bottom: 0;
+	}
+
+	.event_talk_tab_container .tab:last-of-type{
+		border-bottom: 1px solid #D7D7D7;
+	}
+
+	.event_talk_tab_container .tab.active{
+		background: #d7d7d7;
+	}
+
+	.magic_line{
+		display: none;
+	}
+
+	.event_talk_image_container{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.event_talk_talk_contents.has_image,
+	.event_talk_talk_contents{
+		width: 100%;
+	}
+
+}

@@ -1,0 +1,155 @@
+.empty{
+	display: none;
+}
+.event_days{
+	padding: 20px;
+}
+.day_tabs{
+	padding-left: 30px;
+	border-bottom: 1px solid #dadada;
+}
+.day_tabs .tab{
+	display: inline-block;
+	width: 10%;
+	padding: 10px 15px;
+	position: relative;
+	bottom: -1px;
+	border: 1px solid #dadada;
+	background: #F9F8F8;
+}
+.day_tabs .tab.active{
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+.day_tabs .tab:hover{
+	cursor: pointer;
+}
+.day_tabs .tab input{
+	border: 0;
+	width: 100%;
+	box-shadow: none;
+	outline: none;
+	font-weight: 600;
+	border-bottom: 1px solid #dad8d8;
+	background-color: transparent;
+	position: relative;
+	top: 2px;
+}
+.day_tabs .tab input:active,
+.day_tabs .tab input:focus{
+	box-shadow: none;
+	outline: none;
+	background: #F3F3F3;
+    border-bottom: 1px solid #F3F3F3;
+}
+.tab_content_holder{
+	padding: 20px;
+}
+.tab_content{
+	display: none;
+}
+.tab_content.active{
+	display: block;
+}
+.event_part_content{
+	margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DADADA;
+}
+.event_part_content:last-of-type{
+	border-bottom: 0;
+}
+.image_container{
+	width: 20%;
+	margin-right: 2%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 50px;
+}
+.image_container .button:first-of-type{
+	margin-right: 10px;
+}
+.event_part_image{
+	border: 3px dashed #c3c3c3;
+	background: #f9f9f9;
+	width: 170px;
+	height: 170px;
+	margin-bottom: 15px;
+	object-fit: cover;
+	display: block;
+    margin: 0 auto 20px;
+}
+.content_container{
+	display: inline-block;
+	width: 65%;
+	vertical-align: top;
+	margin-right: 2%;
+}
+.content_container label,
+.content_container input{
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+.content_container input{
+	width: 21.45%;
+}
+.content_container input:last-of-type{
+	margin-right: 0;
+}
+.content_container textarea{
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.content_container label{
+	font-weight: 600;
+}
+.content_container .talk_desc_label{
+	display: block;
+	margin: 10px 0;
+}
+.control_container{
+	display: inline-block;
+	width: 10%;
+	vertical-align: top;
+	text-align: center;
+	padding-top: 70px;
+}
+.control_container .add_talk,
+.control_container .remove_talk{
+	margin-bottom: 15px;
+	width: 100%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.content_container .additional_talk_meta > .talk_time,
+.content_container .additional_talk_meta > .talk_place,
+.content_container .additional_talk_meta > .talk_speaker{
+	width: 33.05%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.content_container .additional_talk_meta > .talk_time select{
+	margin-bottom: 10px;
+}
+
+.content_container .additional_talk_meta .talk_time label{
+	width: 27%;
+	display: inline-block;
+    vertical-align: text-bottom;
+}
+
+.content_container .additional_talk_meta > .talk_place input{
+	width: 60%;
+}
+
+.content_container .additional_talk_meta > .talk_speaker input{
+	width: 66.6%;
+}
